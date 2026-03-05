@@ -325,7 +325,7 @@ export default function Login() {
 
               <div className="lp-register">
                 Don't have an Account ?{' '}
-                <span className="lp-reg-link" onClick={()=>navigate('/register')}>
+                <span className="lp-reg-link" onClick={()=>navigate('/registeruser')}>
                   Register
                 </span>
               </div>

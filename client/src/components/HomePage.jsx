@@ -69,12 +69,12 @@ export default function Home() {
           </div>
           <div className="nav-links">
             <button className="nav-link" onClick={()=>navigate('/about')}>About</button>
-            <button className="nav-link" onClick={() => navigate('/regorganization')}>Organization</button>
+            <button className="nav-link" onClick={() => navigate('/registerorganization')}>Organization</button>
             <button className="nav-link">Pricing</button>
           </div>
           <div className="nav-actions">
             <button className="nbtn nbtn-ghost" onClick={()=>navigate('/login')}>Sign In</button>
-            <button className="nbtn nbtn-solid" onClick={()=>navigate('/register')}>Get Started</button>
+            <button className="nbtn nbtn-solid" onClick={()=>navigate('/registeruser')}>Get Started</button>
           </div>
         </nav>
 

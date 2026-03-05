@@ -21,7 +21,7 @@ const SIZES = [
   { v:'501+', l:'501+', sub:'Global' },
 ]
 
-export default function RegsiterOrganization() {
+export default function RegisterOrganization() {
   const navigate = useNavigate()
 
   const [phase, setPhase] = useState(0)
