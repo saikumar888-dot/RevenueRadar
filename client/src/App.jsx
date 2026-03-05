@@ -22,7 +22,7 @@ function App() {
           <Route path='/about' element={<AboutPage />} />
           <Route path='/dashboard' element={<DashboardPage />} />
           <Route path='/admin-panel' element={<AdminPage />} />
-          <Route path='/headofdepartmentpage' element={<HeadofdepartmentPage />} />
+          <Route path='/headofdepartment' element={<HeadofdepartmentPage />} />
         </Routes>
       </BrowserRouter>
     </div>
