@@ -70,7 +70,6 @@ export default function Home() {
           <div className="nav-links">
             <button className="nav-link" onClick={()=>navigate('/about')}>About</button>
             <button className="nav-link" onClick={() => navigate('/registerorganization')}>Organization</button>
-            <button className="nav-link">Pricing</button>
           </div>
           <div className="nav-actions">
             <button className="nbtn nbtn-ghost" onClick={()=>navigate('/login')}>Sign In</button>
@@ -117,7 +116,7 @@ export default function Home() {
                 <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2.5l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/></svg>
                 Sign In to Dashboard
               </button>
-              <button className="cta-s" onClick={() => navigate('/organization')}>Create Organization</button>
+              <button className="cta-s" onClick={() => navigate('/registerorganization')}>Create Organization</button>
             </div>
           </div>
 

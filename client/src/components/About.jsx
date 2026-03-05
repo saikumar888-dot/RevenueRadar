@@ -104,11 +104,11 @@ export default function About() {
           <div className="nav-links">
             <button className="nav-link" onClick={()=>navigate('/')}>Home</button>
             <button className="nav-link nav-link-active">About</button>
-            <button className="nav-link" onClick={() => navigate('/organization')}>Organization</button>
+            <button className="nav-link" onClick={() => navigate('/registerorganization')}>Organization</button>
           </div>
           <div className="nav-actions">
             <button className="nbtn nbtn-ghost" onClick={()=>navigate('/login')}>Sign In</button>
-            <button className="nbtn nbtn-solid" onClick={()=>navigate('/register')}>Get Started</button>
+            <button className="nbtn nbtn-solid" onClick={()=>navigate('/registeruser')}>Get Started</button>
           </div>
         </nav>
 
@@ -251,13 +251,13 @@ export default function About() {
                 unprecedented clarity and precision.
               </p>
               <div className="vision-ctas">
-                <button className="cta-p" onClick={()=>navigate('/register')}>
+                <button className="cta-p" onClick={()=>navigate('/registeruser')}>
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
                     <path d="M2 6.5h9M7 2.5l4 4-4 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                   Get Started Today
                 </button>
-                <button className="cta-s" onClick={()=>navigate('/organization')}>
+                <button className="cta-s" onClick={()=>navigate('/registerorganization')}>
                   Create Organization
                 </button>
               </div>
